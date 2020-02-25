@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Práctica Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap-4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#" ><img src="./images/ENIUN@2x.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">SEO</a>
+                            <a class="dropdown-item" href="#">Desarrollo Web</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Marketing Online</a>
+                        </div>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn my-2 my-sm-0 btn-primary"  type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+    
+        </div>
+        <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/ENIUNCreatividadDiseno.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/ENIUNCreatividadSeo.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/ENIUNCreatividadSocialNetwork.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="jumbotron col">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="margin-top: 10px; margin-bottom: 10px;">
+                <audio id="audio"  style="display: block; margin: auto;" controls autoplay="true">
+                    <source src="intro.mp3" type='audio/mpeg; codecs="mp3"'>
+                    <source src="intro.ogg" type='audio/ogg; codecs="vorbis"' >
+               </audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="margin-top: 10px; margin-bottom: 10px;">
+                <video id="video" style=" border: 1px solid black; display: block; margin: auto;" width="700" height="350" controls autoplay="true" poster>
+                    <source src="Wolf.mp4" type="video/mp4">
+                    <source src="Wolf.ogv" type='video/ogv; codecs="theora, vorbis"'>
+                    <source src="Wolf.webm" type='video/webm; codecs="vp8, vorbis"'>
+                </video>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 style="text-align:center;" >Articulos</h3 >
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-deck" style="margin:auto">
+                <div class=" col-md-6 col-lg-4 ">
+                    <div class="card " style="width: 18rem;">
+                        <img src="./images/contenido-incrustado.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/test-de-verificacion-html-y-herramientas-utiles.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/factores-clave-para-el-SEO.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">&nbsp;</div>
+        </div>
+        <div class="row" >
+            <div class="page-footer bg-primary col" style="padding:2%; width: 100%;" >
+                <div style="color: white;float: left;">
+                    Eniun.com
+                </div>
+                <div style="color: white;float: right;">
+                    Politica de privacidad y cookies
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="./bootstrap-4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
